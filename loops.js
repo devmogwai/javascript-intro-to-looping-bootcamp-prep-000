@@ -24,6 +24,9 @@ function doWhile(array) {
 
    do {
      array.pop() 
+     console.log(array)
    } while (array.lenth > 0 && maybeTrue());
 }
+doWhile([1, 3, 5, 7, 9])
+
 
