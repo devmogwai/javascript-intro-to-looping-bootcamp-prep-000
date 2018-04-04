@@ -23,8 +23,7 @@ function doWhile(array) {
   }
 
    do {
-     array.pop 
-  
+     array.pop() 
    } while (array.lenth > 0 && maybeTrue());
 }
 
