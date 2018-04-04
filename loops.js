@@ -23,7 +23,7 @@ function doWhile(array) {
   }
 
    do {
-     console.log('doo-bee-doo-bee-doo')
+     array.pop 
   
    } while (array.lenth > 0 && maybeTrue());
 }
