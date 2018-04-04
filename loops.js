@@ -9,6 +9,14 @@ function forLoop(array) {
 return array
 }
 
+function whileLoop(number){
+  while (number>0) {
+    console.log(number)
+    number --
+  }
+  console.log('done')
+} 
+
 function doWhile(array) {
   
 }
